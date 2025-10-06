@@ -20,7 +20,7 @@ function draw() {
   background(40);
   drawSprites();
   console.log(World.frameRate);
-  World.frameRate =1;
+  World.frameRate =45;
   //Sun
   fill(255,255,0);
   ellipse(centerX, centerY, frameCount);
